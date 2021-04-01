@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resuorces/AppFeatures"},
+		features = {"/Selenium/cucumberPOM/src/test/resuorces/AppFeatures/AccountsPage.feature"},
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty"},
 		monochrome = true
