@@ -7,9 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"/Selenium/cucumberPOM/src/test/resuorces/AppFeatures/AccountsPage.feature"},
+		features = {"/Selenium/cucumberPOM/src/test/resuorces/AppFeatures"},
 		glue = {"stepdefinitions", "AppHooks"},
-		plugin = {"pretty"},
+		plugin = {"pretty",
+				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		monochrome = true
 		
 		)
