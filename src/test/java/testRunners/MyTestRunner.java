@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 		features = {"/Selenium/cucumberPOM/src/test/resuorces/AppFeatures"},
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty",
-				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				  "timeline:test-output-thread/"},
 		monochrome = true
 		
 		)
