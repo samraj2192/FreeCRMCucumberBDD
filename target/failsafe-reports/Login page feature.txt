@@ -1,4 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: Login page feature
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.243 s - in Login page feature
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 195.454 s <<< FAILURE! - in Login page feature
+Login page title(Login page feature)  Time elapsed: 65.559 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JF9V1DF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Login page title(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login page title(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Forgot Password link(Login page feature)  Time elapsed: 64.381 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JF9V1DF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Forgot Password link(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Forgot Password link(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with correct credentials(Login page feature)  Time elapsed: 65.51 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JF9V1DF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Login with correct credentials(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login with correct credentials(Login page feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

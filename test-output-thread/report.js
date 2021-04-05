@@ -1,59 +1,59 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "bb81d104-f29f-4bfc-87cf-04912d7d4379",
+    "id": "0400b452-5acb-49dd-a79b-03670733317a",
     "feature": "Account Page Feature",
     "scenario": "Accounts section count",
-    "start": 1617620986549,
+    "start": 1617624533013,
     "group": 16,
     "content": "",
     "tags": "@accounts,",
-    "end": 1617621005538,
-    "className": "passed"
+    "end": 1617624541755,
+    "className": "failed"
   },
   {
-    "id": "a726433f-6741-4c4e-b079-3c7c613bb8cf",
+    "id": "8670e98c-00c2-4f6c-b99f-1d967b24171b",
     "feature": "Login page feature",
     "scenario": "Forgot Password link",
-    "start": 1617620984068,
+    "start": 1617624533978,
     "group": 17,
     "content": "",
     "tags": "",
-    "end": 1617621002416,
-    "className": "passed"
+    "end": 1617624541058,
+    "className": "failed"
   },
   {
-    "id": "7679a28a-8aa6-4b11-b9ee-9b965200d4f7",
+    "id": "5ece0532-c5c3-44a6-b7c5-39d33842d22c",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1617624541071,
+    "group": 17,
+    "content": "",
+    "tags": "",
+    "end": 1617624562248,
+    "className": "failed"
+  },
+  {
+    "id": "0459a3b7-f621-453b-b85d-8cc4f5221c2d",
     "feature": "Account Page Feature",
     "scenario": "Accounts page title",
-    "start": 1617620967927,
+    "start": 1617624511730,
     "group": 16,
     "content": "",
     "tags": "@accounts,",
-    "end": 1617620986540,
-    "className": "passed"
+    "end": 1617624533001,
+    "className": "failed"
   },
   {
-    "id": "41b4ea38-286d-4111-a79f-6a24aeb9244d",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1617621002421,
-    "group": 17,
-    "content": "",
-    "tags": "",
-    "end": 1617621025957,
-    "className": "passed"
-  },
-  {
-    "id": "6ecd2a71-00e9-48a9-814a-fd864f049ed8",
+    "id": "0c954348-fbe3-45ed-8f2d-7513f9f9b4db",
     "feature": "Login page feature",
     "scenario": "Login page title",
-    "start": 1617620967924,
+    "start": 1617624511732,
     "group": 17,
     "content": "",
     "tags": "",
-    "end": 1617620984053,
-    "className": "passed"
+    "end": 1617624533972,
+    "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([

@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: Account Page Feature
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.823 s - in Account Page Feature
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 132.911 s <<< FAILURE! - in Account Page Feature
+Accounts page title(Account Page Feature)  Time elapsed: 67.367 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JF9V1DF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Accounts page title(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts page title(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts section count(Account Page Feature)  Time elapsed: 65.541 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JF9V1DF', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+
+Accounts section count(Account Page Feature)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Accounts section count(Account Page Feature)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+
