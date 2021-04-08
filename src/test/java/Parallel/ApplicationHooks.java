@@ -2,6 +2,7 @@ package Parallel;
 
 import java.util.Properties;
 
+import org.junit.Assume;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -25,13 +26,19 @@ public class ApplicationHooks {
 	/**
 	 * get the properties object from config.properties file
 	 */
-	@Before(order = 0)
+	@Before(value = "@skip", order = 0)
+	public void skip_Scenarios(Scenario scenario) {
+		System.out.println("Skipped scenario : " + scenario.getName());
+		Assume.assumeTrue(false);
+	}
+	
+	@Before(order = 1)
 	public void getProperty() {
 		configreader = new ConfigReader();
 		prop = configreader.init_prop();
 	}
 
-	@Before(order = 1)
+	@Before(order = 2)
 	public void launchBrowser() {
 		String browserName = prop.getProperty("browser");
 		driverfactory = new DriverFactory();

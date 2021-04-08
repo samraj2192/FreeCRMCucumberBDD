@@ -2,5 +2,6 @@ C:\Selenium\cucumberPOM\src\test\java\testRunners\MyTestRunner.java
 C:\Selenium\cucumberPOM\src\test\java\Parallel\LoginPageSteps.java
 C:\Selenium\cucumberPOM\src\test\java\Parallel\AccountsPageSteps.java
 C:\Selenium\cucumberPOM\src\test\java\Parallel\ContactUsSteps.java
+C:\Selenium\cucumberPOM\src\test\java\Parallel\FailedRun.java
 C:\Selenium\cucumberPOM\src\test\java\Parallel\ApplicationHooks.java
 C:\Selenium\cucumberPOM\src\test\java\Parallel\ParallelRun.java

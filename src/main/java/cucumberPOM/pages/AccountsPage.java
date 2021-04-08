@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 public class AccountsPage {
 	private WebDriver driver;
 	private By accountSections = By.cssSelector("div#center_column div div span");
+//	private By accountSections = By.cssSelector("div#center_column div div spa");
 
 	public AccountsPage(WebDriver driver) {
 		this.driver = driver;
