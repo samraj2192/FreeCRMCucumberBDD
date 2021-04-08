@@ -11,8 +11,8 @@ public class ContactUsPage {
 	private By Sub_Heading = By.cssSelector("div.selector select#id_contact");
 	private By email = By.cssSelector("p.form-group input#email");
 	private By send_button = By.cssSelector("div.submit button#submitMessage");
-//	private By message = By.cssSelector("div.form-group textarea#message");
-	private By message = By.cssSelector("div.form-group textarea#messag");
+	private By message = By.cssSelector("div.form-group textarea#message");
+//	private By message = By.cssSelector("div.form-group textarea#messag");
 //	private By successMessg = By.cssSelector("div#center_column p");
 	
 	public ContactUsPage(WebDriver driver) {

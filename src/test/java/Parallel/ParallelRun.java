@@ -13,6 +13,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				  "timeline:test-output-thread/",
 				  "rerun:target/failedrerun.txt"},
+		//tags = "not @skip",
 		monochrome = true
 		
 		)

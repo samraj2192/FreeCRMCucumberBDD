@@ -14,6 +14,7 @@ import io.cucumber.testng.CucumberOptions;
 				  "rerun:target/failedrerun.txt"},
 		monochrome = true
 		
+		
 		)
 
 public class FailedRun extends AbstractTestNGCucumberTests {

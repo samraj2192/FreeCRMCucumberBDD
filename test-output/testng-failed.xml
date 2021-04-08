@@ -3,18 +3,18 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="Parallel.FailedRun"/>
+      <class name="Parallel.ParallelRun"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Parallel.FailedRun">
+      <class name="Parallel.ParallelRun">
         <methods>
-          <include name="runScenario" invocation-numbers="1 2 0"/>
+          <include name="runScenario" invocation-numbers="6"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- Parallel.FailedRun -->
+      </class> <!-- Parallel.ParallelRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
