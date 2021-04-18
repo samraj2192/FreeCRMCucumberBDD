@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"/Selenium/cucumberPOM/src/test/resuorces/AppFeatures"},
+		features = {"FreeCRMCucumberBDD/src/test/resuorces/Parallel"},
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty",
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},

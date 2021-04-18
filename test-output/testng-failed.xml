@@ -6,15 +6,4 @@
       <class name="Parallel.ParallelRun"/>
     </classes>
   </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="Parallel.ParallelRun">
-        <methods>
-          <include name="runScenario" invocation-numbers="6"/>
-          <include name="tearDownClass"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- Parallel.ParallelRun -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

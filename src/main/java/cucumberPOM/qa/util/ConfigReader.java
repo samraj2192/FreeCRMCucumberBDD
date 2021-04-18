@@ -15,7 +15,7 @@ public class ConfigReader {
 	public Properties init_prop() {
 		prop = new Properties();
 		try {
-			FileInputStream fis = new FileInputStream("c:/Selenium/cucumberPOM/src/test/resuorces/config/config.properties");
+			FileInputStream fis = new FileInputStream("c:/FreeCRMCucumberBDD/src/test/resuorces/config/config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

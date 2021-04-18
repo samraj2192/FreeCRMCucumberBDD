@@ -1,80 +1,80 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "1ededf3c-78d7-4c39-b298-c517748cb709",
-    "feature": "Login page feature",
-    "scenario": "Login with correct credentials",
-    "start": 1617862913154,
-    "group": 24,
-    "content": "",
-    "tags": "@login,@dryrun,@skip,",
-    "end": 1617862919592,
-    "className": "skipped"
-  },
-  {
-    "id": "f5909786-4e4b-4633-a962-294ece75545b",
-    "feature": "Contact us feature",
-    "scenario": "Contact us scenario with different sets of data",
-    "start": 1617862913156,
-    "group": 21,
-    "content": "",
-    "tags": "",
-    "end": 1617862939663,
-    "className": "passed"
-  },
-  {
-    "id": "3bc7083b-00cf-4b14-a455-c942987a4547",
-    "feature": "Login page feature",
-    "scenario": "Login page title",
-    "start": 1617862913152,
-    "group": 22,
-    "content": "",
-    "tags": "@login,@dryrun,",
-    "end": 1617862936196,
-    "className": "passed"
-  },
-  {
-    "id": "3944237e-36a6-4182-a5da-6e1a5eda437c",
-    "feature": "Account Page Feature",
-    "scenario": "Accounts page title",
-    "start": 1617862913154,
-    "group": 18,
-    "content": "",
-    "tags": "@accounts,",
-    "end": 1617862940186,
-    "className": "passed"
-  },
-  {
-    "id": "06b63085-3ea1-4067-9043-15a502cdac4d",
-    "feature": "Login page feature",
-    "scenario": "Forgot Password link",
-    "start": 1617862913070,
-    "group": 23,
-    "content": "",
-    "tags": "@login,@dryrun,",
-    "end": 1617862936623,
-    "className": "passed"
-  },
-  {
-    "id": "2fa4878a-bc9c-40b4-a4f6-241304e94a38",
+    "id": "87515fa3-6331-49d2-b555-ad89b13be123",
     "feature": "Account Page Feature",
     "scenario": "Accounts section count",
-    "start": 1617862913156,
+    "start": 1618751013314,
     "group": 19,
     "content": "",
     "tags": "@accounts,",
-    "end": 1617862939757,
+    "end": 1618751042040,
     "className": "passed"
   },
   {
-    "id": "e770489c-6afa-4c52-8b88-f9f8fc078681",
+    "id": "c7bf6047-d374-4e14-8077-4b9c8e7a3233",
+    "feature": "Login page feature",
+    "scenario": "Forgot Password link",
+    "start": 1618751013202,
+    "group": 23,
+    "content": "",
+    "tags": "@login,@dryrun,",
+    "end": 1618751035792,
+    "className": "passed"
+  },
+  {
+    "id": "19ffd25c-a124-491e-b82d-caa6f1f5c1a2",
     "feature": "Contact us feature",
     "scenario": "Contact us scenario with different sets of data",
-    "start": 1617862913155,
+    "start": 1618751013312,
     "group": 20,
     "content": "",
     "tags": "",
-    "end": 1617862939450,
+    "end": 1618751040527,
+    "className": "passed"
+  },
+  {
+    "id": "69c69812-4fa6-4c02-b4af-bf105f196760",
+    "feature": "Contact us feature",
+    "scenario": "Contact us scenario with different sets of data",
+    "start": 1618751013314,
+    "group": 21,
+    "content": "",
+    "tags": "",
+    "end": 1618751040725,
+    "className": "passed"
+  },
+  {
+    "id": "e6f62301-9f8c-4d9d-9fa6-f8812f37c723",
+    "feature": "Login page feature",
+    "scenario": "Login with correct credentials",
+    "start": 1618751013312,
+    "group": 24,
+    "content": "",
+    "tags": "@login,@dryrun,",
+    "end": 1618751041715,
+    "className": "passed"
+  },
+  {
+    "id": "1f53c826-1bc7-490c-a045-b4a32711b7af",
+    "feature": "Account Page Feature",
+    "scenario": "Accounts page title",
+    "start": 1618751013315,
+    "group": 18,
+    "content": "",
+    "tags": "@accounts,",
+    "end": 1618751039365,
+    "className": "passed"
+  },
+  {
+    "id": "f089b7bf-ed94-4c58-93cd-29a3a08de7af",
+    "feature": "Login page feature",
+    "scenario": "Login page title",
+    "start": 1618751013309,
+    "group": 22,
+    "content": "",
+    "tags": "@login,@dryrun,",
+    "end": 1618751030778,
     "className": "passed"
   }
 ]);

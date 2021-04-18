@@ -7,7 +7,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(
-		features = {"/Selenium/cucumberPOM/src/test/resuorces/Parallel"},
+		features = {"/FreeCRMCucumberBDD/src/test/resuorces/Parallel"},
 		glue = {"Parallel"},
 		plugin = {"pretty",
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

@@ -12,7 +12,7 @@ Scenario: Forgot Password link
 Given user is on login page
 Then forgot your password link should be displayed
 
-@Dryrun @skip
+@Dryru
 Scenario: Login with correct credentials
 Given user is on login page
 When user enters username "samraj.bhowmik@gmail.com"
